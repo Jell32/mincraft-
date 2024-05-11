@@ -1,0 +1,15 @@
+package com.yourname.modname;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class MyBlock extends Block {
+    
+    public MyBlock() {
+        super(Material.ROCK); // Set the block's material (you can choose other materials)
+        setRegistryName("my_block"); // Set the block's registry name
+        setUnlocalizedName("myBlock"); // Set the block's unlocalized name
+        setCreativeTab(CreativeTabs.BUILDING_BLOCKS); // Set the block to appear in the creative inventory
+    }
+    
+}
